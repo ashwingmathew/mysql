@@ -1,0 +1,9 @@
+
+CREATE DATABASE account;
+USE account;
+CREATE TABLE users(
+   id INT NOT NULL AUTO_INCREMENT,
+   username VARCHAR(20) NOT NULL,
+   password VARCHAR(15) NOT NULL,
+   complaints CHAR(100) NULL,
+   PRIMARY KEY (id));
